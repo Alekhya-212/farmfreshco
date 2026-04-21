@@ -30,7 +30,7 @@ nav a {
 }
 
 .hero button {
-  background: #87CEEB;
+  background: #87CEEB; /* sky blue button */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -45,7 +45,7 @@ section {
 }
 
 h2 {
-  color: #87CEEB;
+  color: #87CEEB; /* sky blue headings */
 }
 
 .products, .subscriptions {
@@ -65,7 +65,7 @@ h2 {
 }
 
 footer {
-  background: #87CEEB;
+  background: #87CEEB; /* sky blue footer */
   color: white;
   text-align: center;
   padding: 20px;
