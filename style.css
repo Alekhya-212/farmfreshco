@@ -1,36 +1,72 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #fdfdfd;
+  background: #ffffff; /* white background */
   color: #333;
 }
 
 header {
-  text-align: center;
-  background: #4CAF50;
+  background: #87CEEB; /* sky blue */
   color: white;
   padding: 20px;
+  text-align: center;
 }
 
-.logo {
-  width: 80px;
-  height: auto;
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #f0f8ff; /* very light blue */
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h1 {
+  color: #333;
+}
+
+.hero button {
+  background: #87CEEB;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 section {
-  padding: 20px;
-  margin: 10px auto;
-  max-width: 800px;
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
 }
 
 h2 {
-  color: #4CAF50;
+  color: #87CEEB;
+}
+
+.products, .subscriptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #87CEEB;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 footer {
+  background: #87CEEB;
+  color: white;
   text-align: center;
-  background: #eee;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 20px;
 }
